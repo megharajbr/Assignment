@@ -51,3 +51,4 @@ Run:
 
 ## Usage
 Make scripts executable with `chmod +x scripts/*.sh`, then run the desired script from the project root.
+Testing automatic Jenkins pipeline.
