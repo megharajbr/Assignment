@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Health Check') {
       steps { 
-        sh 'bash scripts/health_check.sh'
+        sh 'bash scripts/health_check.sh cron nginx'
       }
     }
     stage('User Report') {
